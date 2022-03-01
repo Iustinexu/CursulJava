@@ -15,13 +15,12 @@ public class IfElseExample {
 		String user = obiectscan.next();
 		System.out.println("Introdu Parola :");
 		String pass = obiectscan.next();
-		
+	
 		if (username.equals(user) && password.equals(pass) ) {
 			System.out.println("Login Sucsessfull");
 		}else {
 			System.out.println("Usernam or password is wrong!");
 		}
-
+	}
 	}
 
-}

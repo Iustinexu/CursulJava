@@ -6,12 +6,12 @@ public class IfElseIfExample {
 
 	public static void main(String[] args) {
 	
-		System.out.println("Ce Punctaj ai obtinu?");
+		System.out.println("Ce Punctaj ai obtinut?");
 		Scanner scan = new Scanner(System.in);
 		int punctaj = scan.nextInt();
 		char calificativ;
 		
-		if(punctaj <=60) {
+		if(punctaj<=60) {
 			calificativ = 'E';
 		}else if(punctaj<=70){
 			calificativ = 'D';
