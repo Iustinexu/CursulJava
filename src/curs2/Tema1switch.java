@@ -5,8 +5,11 @@ import java.util.Scanner;
 public class Tema1switch {
 
 public static void main(String[] args) {
+	
 	System.out.println("Da-mi un numar sefule!");
+	
 	Scanner scan = new Scanner(System.in);
+	
 	String ziuaSaptamanii = scan.next();
 	
 	

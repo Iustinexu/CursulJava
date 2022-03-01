@@ -14,10 +14,10 @@ public class Tema1p2 {
 			if(varsta >64) {
 			System.out.println("Esti batran");
 				
-			}else if(varsta >17) && (varsta <64) {
+			}else if((varsta >17) && (varsta <64)) {
 			System.out.println("Esti adult");
 				
-			}else(varsta <=17) {
+			}else{
 			System.out.println("Esti minor");
 			
 			
@@ -31,9 +31,9 @@ public class Tema1p2 {
 			
 			
 	
-	
 			}
-
+			}
+}
 		
 		
 
