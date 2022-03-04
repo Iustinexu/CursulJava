@@ -10,7 +10,7 @@ public class TestRectangle {
 		
 		
 		
-		//System.out.println(obj.calculateArea());
+		System.out.println(obj.calculateArea());
 
 		
 		Rectangle obj2 = new Rectangle(2, 6);
