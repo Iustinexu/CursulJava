@@ -5,14 +5,13 @@ public class QualificationTest extends Qualifications {
 	public static void main(String[] args) {
 		
 	
-		Qualifications tch = new Qualifications();
+		Qualifications teacher = new Qualifications("Java", 3, "Afternoon");
 		
-		tch.setCourse("Java");
-		tch.setExperienceYears(3);
-		tch.setSchedule("Afternoon");
+		teacher.verify();
 		
 		System.out.println("Bines");
 
 	}
+	
 	
 }

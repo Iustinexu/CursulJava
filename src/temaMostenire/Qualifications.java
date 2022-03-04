@@ -2,23 +2,31 @@ package temaMostenire;
 
 public class Qualifications extends Teacher{
 	
-	public static void main(String[] args) {
+	
 		
 		
-	Teacher tch = new Teacher();
-	tch.setCourse("Java");
-	tch.setExperienceYears(3);
-	tch.setSchedule("Afternoon");
-	}
+	public Qualifications() {}
 	
 	public Qualifications(String Course, int ExperienceYears, String Schedule ) {
 		setCourse(Course);
 		setExperienceYears(ExperienceYears);
 		setSchedule(Schedule);
-		
-		
+	
 	}
-}
+	
+		public void verify() {
+			
+			if(getCourse().equalsIgnoreCase("Java")&&getExperienceYears()>=3&&getSchedule().equalsIgnoreCase("Afternoon")) {
+				System.out.println("You can teach at this school");
+			}else {
+				System.out.println("Nex");
+			}
+		}
+	}
+
+		
+	
+
 	
 	
 	
